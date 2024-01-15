@@ -1,0 +1,37 @@
+/* FormulaireModificationModal.css */
+
+.formulaire-modification-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    z-index: 1000;
+    border: 1px solid #ccc;
+  }
+  
+  .formulaire-modification-modal label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .formulaire-modification-modal input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .formulaire-modification-modal button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .formulaire-modification-modal button:hover {
+    background-color: #45a049;
+  }
+  
